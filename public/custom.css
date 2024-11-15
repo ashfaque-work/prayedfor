@@ -1,0 +1,97 @@
+nav#prayed-side-nav {
+    position: fixed;
+    width: 60px;
+    height: 100%;
+    background: #52575d;
+    transition: .5s;
+    overflow: hidden;
+}
+
+nav#prayed-side-nav.active {
+    width: 300px;
+}
+nav#prayed-side-nav ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav#prayed-side-nav ul li {
+    list-style: none;
+    width: 100%;
+    position: relative;
+
+}
+
+nav#prayed-side-nav ul li a:hover {
+    color: #41444b;
+}
+
+nav#prayed-side-nav ul li:hover a::before {
+    background-color: #f6f4e6;
+    width: 100%;
+}
+
+nav#prayed-side-nav ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #f6f4e6;
+    transition: .2s;
+}
+
+nav#prayed-side-nav ul li a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: .2s;
+}
+
+nav#prayed-side-nav ul li a .icon {
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+nav#prayed-side-nav ul li a .title {
+    position: relative;
+    font-size: .85em;
+}
+
+nav#prayed-side-nav ul li a .icon * {
+    font-size: 1.1em;
+}
+
+nav#prayed-side-nav ul li a.toggle {
+    border-bottom: 3px solid #41444b;
+}
+
+.toggle {
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    nav#prayed-side-nav {
+        left: -60px;
+    }
+
+    nav#prayed-side-nav.active {
+        left: 0;
+        width: 100%;
+    }
+
+    nav#prayed-side-nav ul li a.toggle {
+        display: none;
+    }
+}

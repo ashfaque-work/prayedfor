@@ -1,0 +1,10 @@
+[02-Aug-2023 06:18:11 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/combogur/prayedfor.ddns.net/app/Http/Controllers/UserController.php on line 3
+[02-Aug-2023 06:18:51 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/combogur/prayedfor.ddns.net/app/Http/Controllers/UserController.php on line 3
+[02-Aug-2023 07:10:58 UTC] PHP Fatal error:  Cannot use GuzzleHttp\Client as Client because the name is already in use in /home/combogur/prayedfor.ddns.net/app/Http/Controllers/ConversationController.php on line 8
+[07-Aug-2023 06:50:57 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\UserController::viewSendMesage() in /home/combogur/prayedfor.ddns.net/app/Http/Controllers/UserController.php on line 426
+[09-Aug-2023 08:19:24 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/combogur/prayedfor.ddns.net/app/Http/Controllers/UserController.php on line 474
+[09-Aug-2023 08:19:47 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/combogur/prayedfor.ddns.net/app/Http/Controllers/UserController.php on line 474
+[09-Aug-2023 12:50:14 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/combogur/prayedfor.ddns.net/storage/framework/views/0db17af6582c905b1db006c400e118ec.php on line 13
+[14-Aug-2023 07:05:50 UTC] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/combogur/prayedfor.ddns.net/app/Http/Controllers/ConversationController.php on line 326
+[14-Aug-2023 09:50:12 UTC] PHP Fatal error:  Can't use method return value in write context in /home/combogur/prayedfor.ddns.net/app/Http/Controllers/TestController.php on line 186
+[18-Aug-2023 12:57:48 UTC] PHP Fatal error:  Can't use function return value in write context in /home/combogur/prayedfor.ddns.net/storage/framework/views/404d6795b478e75bd60806c12bd9de63.php on line 107
