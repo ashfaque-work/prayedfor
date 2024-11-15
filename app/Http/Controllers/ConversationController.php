@@ -23,7 +23,7 @@ class ConversationController extends Controller
         // for checking spam messages using openAI
         function spam_OpenAi($message)
         {
-            $openaiApiKey = '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';
+            $openaiApiKey = 'XXXXXXXXXXXX';
             // Create a Guzzle client instance
             $client = new Client();
             
